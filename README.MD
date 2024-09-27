@@ -45,4 +45,14 @@ $ connectiong to mongose - CRETAE DATABASE https://www.mongodb.com/products/plat
 
 $ config db.js with mongodb connection string - Message: "Ligado com suceeso à base de dados!" (server database)
 
-## 4th connection database
+## 4th Model Database, Controller: User, UserRoutes, Postman POST user test
+
+$ create data models - data model classes - regras de negócio, tables: Users.js, Photo.js
+
+$ secret in dot env file - example: JWT_SECRET=**********\*\***********
+
+$ create user controllers - UserController.js
+
+$ create userRoutes - UserRoutes.js, and ./UserRoutes in Router.js
+
+$ API user POST test with POSTMAN - **POST:** {{URL}}/api/users/register **UserController Return:** "User Registration test"

@@ -1,0 +1,17 @@
+const express = require("express")
+const router = express.Router()
+
+// Controller
+const {
+  register
+
+} = require("../controllers/UserController")
+
+
+// Routes
+router.post("/register", register)
+
+
+
+// exposrt - component
+module.exports = router
