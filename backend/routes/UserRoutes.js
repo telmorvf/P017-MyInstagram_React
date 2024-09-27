@@ -8,8 +8,15 @@ const {
 } = require("../controllers/UserController")
 
 
+// Middlewares
+const validate = require("../middlewares/handleValidations");
+const {
+  userCreateValidation
+
+} = require("../middlewares/userValidations");
+
 // Routes
-router.post("/register", register)
+router.post("/register", userCreateValidation(), validate, register)
 
 
 

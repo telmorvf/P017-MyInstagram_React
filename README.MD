@@ -57,4 +57,14 @@ $ create userRoutes - UserRoutes.js, and ./UserRoutes in Router.js
 
 $ API user POST test with POSTMAN - **POST:** {{URL}}/api/users/register **UserController Return:** "User Registration test"
 
-## 5th
+## 5th CreateUser = middlewares with express-validator, user validator middleware
+
+$ handleValidations.js - use to generic validations, validate the routes in //Middlewares section
+
+$ userValidations.js - array "userCreateValidation" with user create validations
+
+$ API user POST test with POSTMAN - **POST:** {{URL}}/api/users/register **UserController Return if no Errors:** "User Registration test"
+
+$ UserController: const register - code to regisger an new user
+
+.
